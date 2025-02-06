@@ -44,7 +44,7 @@
       }
      .banner {
       position: relative;
-      height: 50px;
+      height: 400px;
       background-image: url("/uploads/media/default/0001/02/fb57ab781c34da322c884532bfec751e843e36fc.jpeg");
       background-size: cover;
       display: flex;
@@ -54,7 +54,7 @@
       }
       .banner::after {
       content: "";
-      background-color: purple;
+      background-color: red;
       position: absolute;
       width: 100%;
       height: 180%;
@@ -93,7 +93,7 @@
       }
       .item i, input[type="date"]::-webkit-calendar-picker-indicator {
       position: absolute;
-      font-size: 40px;
+      font-size: 80px;
       color: #a9a9a9;
       }
       .item i {
